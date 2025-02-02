@@ -72,3 +72,59 @@ button:hover {
 button:active {
     opacity: 0.8;
 }
+
+
+@media screen and (max-width: 900px) {
+
+   
+    img {
+        position: static;
+        max-width: 80%;
+
+    }
+
+
+
+    h2 {
+        font-size: 45px;
+        line-height: 40px;
+        width: auto;
+        margin-right: 50px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 50px;
+
+    }
+
+
+
+    .input-min {
+    margin: 20px;
+    width: auto;
+    text-align: center;
+    font-size:20px;
+    line-height: 24px;
+    margin-left: 85px;
+    margin-right: 20px;
+    }
+
+    .input-max {
+        margin: 20px;
+        width: auto;
+        text-align: center;
+        font-size:20px;
+        line-height: 24px;
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    button {
+        margin: 30px;
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+}
+
+
